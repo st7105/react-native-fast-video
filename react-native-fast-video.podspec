@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.subspec "VideoCaching" do |ss|
     ss.dependency "react-native-fast-video/Video"
     ss.dependency "SPTPersistentCache", "~> 1.1.1"
-    ss.dependency "DVAssetLoaderDelegate", "~> 0.3.1"
+    ss.dependency "DVAssetLoaderDelegate", "~> 0.3.3"
 
     ss.source_files = "ios/VideoCaching/**/*.{h,m}"
     s.static_framework = true
