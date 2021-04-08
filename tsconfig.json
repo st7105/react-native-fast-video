@@ -11,9 +11,10 @@
       "types": [],
       "noEmit": true,
       "forceConsistentCasingInFileNames": true,
-      "jsx": "react"
+      "jsx": "react",
+      "skipLibCheck": true
   },
-  "files": [
-      "Video.d.ts"
+  "exclude": [
+      "node_modules"
   ]
 }
