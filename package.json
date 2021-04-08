@@ -22,6 +22,10 @@
         {
             "name": "Hampton Maxwell",
             "email": "me@hamptonmaxwell.com"
+        },
+        {
+            "name": "Marc Rousavy",
+            "email": "marcrousavy@hotmail.com"
         }
     ],
     "repository": {
@@ -58,6 +62,7 @@
         "TextTrackType.js",
         "VideoResizeMode.js",
         "Video.js",
+        "index.d.ts",
         "react-native-fast-video.podspec"
     ]
 }
