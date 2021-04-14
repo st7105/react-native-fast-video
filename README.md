@@ -1,6 +1,6 @@
 ## react-native-fast-video
 
-A better `<Video>` component for react-native. Forked from https://github.com/react-native-fast-video/react-native-fast-video to keep up to date.
+A better `<Video>` component for react-native. Forked from [react-native-video/react-native-video](https://github.com/react-native-video/react-native-video) and kept up to date.
 
 ## Table of Contents
 
