@@ -108,6 +108,7 @@ export interface VideoProperties extends ViewProps {
     // Opaque type returned by require('./video.mp4')
     source: { uri?: string, headers?: {[key: string]: string } } | number;
     minLoadRetryCount?: number;
+    mixWithOthers?: "inherit" | "mix" | "duck";
     maxBitRate?: number;
     resizeMode?: "stretch" | "contain" | "cover" | "none"; // via Image#resizeMode
     posterResizeMode?: "stretch" | "contain" | "cover" | "none"; // via Image#resizeMode
