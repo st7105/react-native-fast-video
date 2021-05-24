@@ -26,7 +26,7 @@
     options.cacheIdentifier = self.cacheIdentifier;
     options.defaultExpirationPeriod = 60 * 60 * 24 * 30;
     options.garbageCollectionInterval = (NSUInteger)(1.5 * SPTPersistentCacheDefaultGCIntervalSec);
-    options.sizeConstraintBytes = 1024 * 1024 * 100;
+    options.sizeConstraintBytes = 1024 * 1024 * 1000; // 1 GB
     options.useDirectorySeparation = NO;
 #ifdef DEBUG
     options.debugOutput = ^(NSString *string) {
